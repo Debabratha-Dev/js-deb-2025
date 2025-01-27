@@ -30,7 +30,32 @@
         
     }
 
-    console.log(typeof heros);
+    // console.log(typeof heros);
     
 
     // Link of TypeOf : https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "Debabratha Bhattacharya"
+
+let anothername = myYoutubename
+anothername = "Power House"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ypl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "test@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
